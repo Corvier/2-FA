@@ -1,0 +1,31 @@
+{
+  "name": "2-fa",
+  "version": "1.0.0",
+  "description": "Proyecto para hacer un doble factor de autenticacion con NodeJS y Google Authenticator.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "npx nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corvier/2-FA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corvier/2-FA/issues"
+  },
+  "homepage": "https://github.com/Corvier/2-FA#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
